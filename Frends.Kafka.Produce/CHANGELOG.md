@@ -1,4 +1,7 @@
 # Changelog
+## [2.0.1] - 2025-06-04
+### Added
+- Added Client Id option
 ## [2.0.0] - 2024-05-14
 ### Added
 - Support for Confluent Schema Registry based Avro.

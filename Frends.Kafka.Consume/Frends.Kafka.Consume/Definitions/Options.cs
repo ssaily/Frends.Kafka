@@ -115,11 +115,13 @@ public class Options
     public string GroupId { get; set; }
 
     /// <summary>
-    /// Client id string. 
-    /// An id string to pass to the server when making requests. The purpose of this is to be able to track the source of requests 
+    /// Client ID string. 
+    /// An ID string to pass to the server when making requests. The purpose of this is to be able to track the source of requests 
     /// beyond just ip/port by allowing a logical application name to be included in server-side request logging.
+    /// Defaults to "Frends.Kafka.Consume".
     /// </summary>
     /// <example>kafka-client-1</example>
+    [DefaultValue("Frends.Kafka.Consume")]
     public string ClientId { get; set; }
 
     /// <summary>
